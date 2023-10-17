@@ -71,3 +71,36 @@ Ex: NgIf, NgFor. NgSwitch.
 
 Altera a aparência ou o comportamento de um elemento, componente ou outra diretiva.
 Ex: NgClass, NgStyle.
+
+## json-server
+
+```
+npm init -y
+npm i json-server
+```
+
+No lugar de test:
+
+```
+"scripts": {
+    "start": "json-server --watch db.json --port 3000"
+}
+```
+
+Iniciar json-server
+
+```
+npm start
+```
+
+## Service
+
+Para criar um service:
+
+```
+ng g s nome-service
+```
+
+**@Injectable** uma classe com injeção de dependência.
+
+**providedIn: 'root'** esse serviço pode ser disponibilizado em toda aplicação.

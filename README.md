@@ -32,9 +32,17 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ### Property Binding
 
-Vai do **Componente** para o **Template**
+Vai do **Componente** para o **Template**:
 
 ```html
     {{ valor }} - Interpolação
     [value]="pensamento.conteudo"
+```
+
+### Event Binding
+
+Vai do **Template** para o **Componente**:
+
+```html
+    (click)="criarPensamento()"
 ```

@@ -54,3 +54,20 @@ Vai do **Componente** para o **Template** e vice-versa:
 ```html
 [(ngModel)]="pensamento.conteudo"
 ```
+
+## Diretivas
+
+### Diretivas de componentes
+
+Usado com um modelo. Esse tipo de diretiva é a mais comum.
+Ex: <app-listarPensamentos>.
+
+### Diretivas estruturais
+
+Altera o layout do DOM adicionando e removendo elementos DOM.
+Ex: NgIf, NgFor. NgSwitch.
+
+### Diretivas de atributos
+
+Altera a aparência ou o comportamento de um elemento, componente ou outra diretiva.
+Ex: NgClass, NgStyle.

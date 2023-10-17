@@ -46,3 +46,11 @@ Vai do **Template** para o **Componente**:
 ```html
     (click)="criarPensamento()"
 ```
+
+### Two-way Data Binding
+
+Vai do **Componente** para o **Template** e vice-versa:
+
+```html
+    [(ngModel)]="pensamento.conteudo"
+```

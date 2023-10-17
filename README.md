@@ -35,8 +35,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 Vai do **Componente** para o **Template**:
 
 ```html
-    {{ valor }} - Interpolação
-    [value]="pensamento.conteudo"
+{{ valor }} - Interpolação
+[value]="pensamento.conteudo"
 ```
 
 ### Event Binding
@@ -44,7 +44,7 @@ Vai do **Componente** para o **Template**:
 Vai do **Template** para o **Componente**:
 
 ```html
-    (click)="criarPensamento()"
+(click)="criarPensamento()"
 ```
 
 ### Two-way Data Binding
@@ -52,5 +52,5 @@ Vai do **Template** para o **Componente**:
 Vai do **Componente** para o **Template** e vice-versa:
 
 ```html
-    [(ngModel)]="pensamento.conteudo"
+[(ngModel)]="pensamento.conteudo"
 ```

@@ -25,3 +25,32 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Alura
+
+## Binding
+
+### Property Binding
+
+Vai do **Componente** para o **Template**:
+
+```html
+    {{ valor }} - Interpolação
+    [value]="pensamento.conteudo"
+```
+
+### Event Binding
+
+Vai do **Template** para o **Componente**:
+
+```html
+    (click)="criarPensamento()"
+```
+
+### Two-way Data Binding
+
+Vai do **Componente** para o **Template** e vice-versa:
+
+```html
+    [(ngModel)]="pensamento.conteudo"
+```

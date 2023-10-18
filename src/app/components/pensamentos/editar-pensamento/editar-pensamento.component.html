@@ -2,7 +2,7 @@
   <header class="header">
     <h2>Adicione um <br />pensamento novo:</h2>
   </header>
-  <form [formGroup]="formulario">
+  <form [formGroup]="formulario" *ngIf="formulario">
     <label for="pensamento">Pensamento</label>
     <input
       type="textarea"
@@ -44,7 +44,7 @@
         formulario.get('autoria')?.touched
       "
     >
-      Autoria é obrigátorio!
+      Autoria precisa ter no mínimo 2 caracteres!
     </div>
     <label for="modelo">Selecione o modelo do card:</label>
     <div class="container-radio">
@@ -116,7 +116,13 @@
       </div>
     </div>
     <div class="acoes">
-      <button (click)="editarPensamento()" class="botao">Salvar</button>
+      <button
+        [disabled]="!formulario.valid"
+        (click)="editarPensamento()"
+        [ngClass]="habilitarBotao()"
+      >
+        Salvar
+      </button>
       <button (click)="cancelar()" class="botao">Cancelar</button>
     </div>
   </form>

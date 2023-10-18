@@ -39,7 +39,7 @@
       "conteudo": "Lorem Ipsum",
       "autoria": "Lorem Ipsum",
       "modelo": "modelo1",
-      "favorito": true,
+      "favorito": false,
       "id": 6
     },
     {

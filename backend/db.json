@@ -32,7 +32,7 @@
       "conteudo": "Osso da mão ligado ao osso da mão",
       "autoria": "Sion",
       "modelo": "modelo3",
-      "favorito": false,
+      "favorito": true,
       "id": 5
     },
     {
@@ -75,7 +75,7 @@
       "conteudo": "underidoderidoderiododeriodoo.",
       "autoria": "Windstion Churchill",
       "modelo": "modelo2",
-      "favorito": false
+      "favorito": true
     },
     {
       "id": 12,
